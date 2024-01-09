@@ -93,6 +93,7 @@ def config(
 
 @pytest.fixture(scope="session")
 def setup_logger(config: Config):
+    print("setup logger")
     configure_logging(
         debug_mode=config.debug_mode,
         plain_output=config.plain_output,
