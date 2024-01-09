@@ -195,6 +195,7 @@ d88P     888  "Y88888  "Y888 "Y88P"   "Y8888P88 888           888
         click.echo(
             click.style("\t7. Save the file and run the setup command again.", fg="red")
         )
+    print("Just Test Code")
     if install_error:
         click.echo(
             click.style(
